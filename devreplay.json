@@ -8,5 +8,13 @@
         "consequent": [
             "$1, $2 = $2, $1"
         ]
-    }
+    },
+    {
+        "condition": [
+            "a = b"
+        ],
+        "consequent": [
+            "x = y"
+        ]
+    },
 ]
