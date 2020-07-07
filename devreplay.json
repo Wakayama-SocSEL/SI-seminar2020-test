@@ -1,6 +1,14 @@
 [
     {
         "condition": [
+            "hello world"
+        ],
+        "consequent": [
+            "hi world"
+        ]
+    },
+    {
+        "condition": [
             "world"
         ],
         "consequent": [
