@@ -1,5 +1,5 @@
 
-print("hello world")
+print("hello world test")
 
 tmp = a
 a = b
