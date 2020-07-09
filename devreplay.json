@@ -16,5 +16,14 @@
             "return $1"
         ],
         "regex": true
+    },
+    {
+        "condition": [
+            "(.*;)"
+        ],
+        "consequent": [
+            "\t$1"
+        ],
+        "regex": true
     }
 ]
