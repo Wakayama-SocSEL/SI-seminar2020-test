@@ -1,20 +1,19 @@
 [
     {
         "condition": [
-            "tmp = $1",
-            "$1 = $2",
-            "$2 = tmp"
+            "(.+?,)Man(,.+)"
         ],
         "consequent": [
-            "$1, $2 = $2, $1"
-        ]
+            "$1Male$2"
+        ],
+        "regex": true
     },
     {
         "condition": [
-            "([a-z]+)-([a-z]+)"
+            "(.+?,)Woman(,.+)"
         ],
         "consequent": [
-            "$1 $2"
+            "$1Female$2"
         ],
         "regex": true
     }
