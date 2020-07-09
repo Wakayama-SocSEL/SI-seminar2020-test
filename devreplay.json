@@ -1,20 +1,24 @@
 [
     {
-        "condition": [
-            "tmp = $1",
-            "$1 = $2",
-            "$2 = tmp"
+        "consequent": [
+            "Man"
         ],
         "consequent": [
-            "$1, $2 = $2, $1"
+            "Male"
+        ],
+        "consequent": [
+            "Woman"
+        ],
+        "consequent": [
+            "Female"
         ]
     },
     {
         "condition": [
-            "([a-z]+)-([a-z]+)"
+            "(,(-|)\d+).0"
         ],
         "consequent": [
-            "$1 $2"
+            "$1"
         ],
         "regex": true
     }
