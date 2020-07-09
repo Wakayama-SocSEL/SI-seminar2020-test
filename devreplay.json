@@ -6,7 +6,9 @@
         "consequent": [
             "\t$1"
         ],
-        "regex": true
+        "regex": true,
+        "severity": "Info",
+        "author": "GroupA"
     },
     {
         "condition": [
@@ -15,7 +17,9 @@
         "consequent": [
             "int$2$3$4"
         ],
-        "regex": true
+        "regex": true,
+        "severity": "Info",
+        "author": "GroupA"
     },
     {
         "condition": [
@@ -24,6 +28,8 @@
         "consequent": [
             "return $1"
         ],
-        "regex": true
+        "regex": true,
+        "severity": "Info",
+        "author": "GroupA"
     }
 ]
