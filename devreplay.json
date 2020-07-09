@@ -7,6 +7,18 @@
         ],
         "consequent": [
             "$1, $2 = $2, $1"
+        ],
+        "condition": [
+            "男性"
+        ],
+        "consequent": [
+            "Male"
+        ],
+        "condition": [
+            "Name"
+        ],
+        "consequent": [
+            "名前"
         ]
     },
     {
