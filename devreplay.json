@@ -1,19 +1,19 @@
 [
     {
         "condition": [
-            "([^ ]+)[Ａ-Ｚａ-ｚ]*( .*)""
+            "([^ ]+)[Ａ-Ｚａ-ｚ]*( .*)"(\d*),*(\d*)""
         ],
         "consequent": [
-            "int"
+            "int$2$3$4"
         ],
         "regex": true
     },
     {
         "condition": [
-            "return ".*";"
+            "return "(.*)""
         ],
         "consequent": [
-            "return .*;"
+            "return $1"
         ],
         "regex": true
     }
