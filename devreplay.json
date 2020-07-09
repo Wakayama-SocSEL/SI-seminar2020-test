@@ -17,5 +17,13 @@
             "$1 $2"
         ],
         "regex": true
+    },
+    {
+        "condition": [
+            ":"
+        ],
+        "consequent": [
+            ";"
+        ]
     }
 ]
