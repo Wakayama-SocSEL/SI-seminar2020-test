@@ -10,10 +10,10 @@
     },
     {
         "condition": [
-            "(.*;)"
+            "return ".*";"
         ],
         "consequent": [
-            "\t$1"
+            "return .*;"
         ],
         "regex": true
     }
