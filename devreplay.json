@@ -1,20 +1,10 @@
 [
     {
         "condition": [
-            "tmp = $1",
-            "$1 = $2",
-            "$2 = tmp"
+            "(?:\s*(<|>)\s*)"
         ],
         "consequent": [
-            "$1, $2 = $2, $1"
-        ]
-    },
-    {
-        "condition": [
-            "([a-z]+)-([a-z]+)"
-        ],
-        "consequent": [
-            "$1 $2"
+            " $1 "
         ],
         "regex": true
     }
