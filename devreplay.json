@@ -17,5 +17,14 @@
             "$1 $2"
         ],
         "regex": true
+    },
+    {
+        "condition": [
+            "(System)_(out)_(println)"
+        ],
+        "consequent": [
+            "$1.$2.$3"
+        ],
+        "regex": true
     }
 ]
