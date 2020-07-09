@@ -10,7 +10,7 @@
     },
     {
         "condition": [
-            "([^\\s]+)[A-Z a-z]*(\\s.*)"(\d*),*(\d*)""
+            "([^\\s]+)[A-Z a-z]*(\\s.*)\"(\d*),*(\d*)\""
         ],
         "consequent": [
             "int$2$3$4"
@@ -19,7 +19,7 @@
     },
     {
         "condition": [
-            "return "(.*)""
+            "return \"(.*)\""
         ],
         "consequent": [
             "return $1"
