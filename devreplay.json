@@ -1,24 +1,6 @@
 [
     {
         "condition": [
-            "([^\s]+)[A-Z a-z]*(\s.*)"(\d*),*(\d*)""
-        ],
-        "consequent": [
-            "int$2$3$4"
-        ],
-        "regex": true
-    },
-    {
-        "condition": [
-            "return "(.*)""
-        ],
-        "consequent": [
-            "return $1"
-        ],
-        "regex": true
-    },
-    {
-        "condition": [
             "(.*;)"
         ],
         "consequent": [
