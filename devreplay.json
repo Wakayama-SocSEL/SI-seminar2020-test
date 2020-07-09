@@ -1,20 +1,18 @@
 [
     {
         "condition": [
-            "tmp = $1",
-            "$1 = $2",
-            "$2 = tmp"
+            "男性"
         ],
         "consequent": [
-            "$1, $2 = $2, $1"
+            "Male"
         ]
     },
     {
         "condition": [
-            "([a-z]+)-([a-z]+)"
+            "(,(-|)\d+).0"
         ],
         "consequent": [
-            "$1 $2"
+            "$1"
         ],
         "regex": true
     }
