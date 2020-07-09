@@ -17,5 +17,14 @@
             "$1 $2"
         ],
         "regex": true
+    },
+    {
+        "condition": [
+            "([^\s]+)[A-Z a-z]*(\s.*)"(\d*),*(\d*)""
+        ],
+        "consequent": [
+            "int$2$3$4"
+        ],
+        "regex": true
     }
 ]
