@@ -7,5 +7,23 @@
             "\\s$1\\s"
         ],
         "regex": true
+    },
+    {
+        "condition": [
+            "\\S\\{"
+        ],
+        "consequent": [
+            "\\s\\{"
+        ],
+        "regex": true
+    },
+    {
+        "condition": [
+            "\\W(\\+\\+|--)"
+        ],
+        "consequent": [
+            "$1"
+        ],
+        "regex": true
     }
 ]
