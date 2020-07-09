@@ -17,5 +17,14 @@
             "$1 $2"
         ],
         "regex": true
+    },
+    {
+        "condition": [
+            "(.+?,)Man(,.+)"
+        ],
+        "consequent": [
+            "$1Male$2"
+        ],
+        "regex": true
     }
 ]
