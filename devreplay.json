@@ -17,5 +17,14 @@
             "$1 $2"
         ],
         "regex": true
+    },
+    {
+        "condition": [
+            "^\s+[A-Za-z]+\s([a-z0-9])\s=\s\"([\d,]+)\";"
+        ],
+        "consequent": [
+            "int $1 = $2"
+        ],
+        "regex": true
     }
 ]
