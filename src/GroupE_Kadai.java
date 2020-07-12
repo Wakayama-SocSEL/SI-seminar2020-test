@@ -4,10 +4,10 @@ public class Main {
         int temp;
         for(int i = 0; i < number_array.length; i++){
             for(int j = 0; j < number_array.length - i -1; j++){
-                if(number_array[j] > number_array[j +1]){
+                if(number_array[j] > number_array[j + 1]){
                     temp = number_array[j];
-                    number_array[j] = number_array[j +1];
-                    number_array[j +1] = temp;
+                    number_array[j] = number_array[j + 1];
+                    number_array[j + 1] = temp;
                 }
             }
         }
