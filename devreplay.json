@@ -9,6 +9,16 @@
         "regex": true,
         "severity": "Info",
         "author": "GroupA"
+    },{
+        "condition": [
+            "(.*;)"
+        ],
+        "consequent": [
+            "    $1"
+        ],
+        "regex": true,
+        "severity": "Info",
+        "author": "GroupA"
     },
     {
         "condition": [
