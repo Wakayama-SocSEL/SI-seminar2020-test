@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*;　
 public class Main {
     public static void number_sort(int[] number_array){
         int temp;
