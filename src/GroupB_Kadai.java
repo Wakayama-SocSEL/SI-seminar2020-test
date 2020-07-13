@@ -1,4 +1,4 @@
-index,anime_id,name,genre,type,episodes,rating,members
+index,anime_id,name,genre,type,episodes,rating,members, test
 0,14741,Chuunibyou demo Koi ga Shitai!,Comedy,Drama,Romance,School,Slice of Life,TV,12,7.95,394399
 1,1943,Paprika,Fantasy,Horror,Mystery,Psychological,Sci-Fi,Thriller,Movie,1,8.15,163308
 2,22535,Kiseijuu: Sei no Kakuritsu,Action,Drama,Horror,Psychological,Sci-Fi,Seinen,TV,24,8.59,425457
