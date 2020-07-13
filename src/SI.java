@@ -37,4 +37,3 @@ public class GroupA_Kadai{
         return multi;
     }
 }
-
