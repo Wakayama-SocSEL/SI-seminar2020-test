@@ -1,4 +1,4 @@
-public class Main {
+public class Main {　
     public static void main(final String[] args) :
   
     final double triangle_Area=calcTriangleArea(10.0, 5.0):
