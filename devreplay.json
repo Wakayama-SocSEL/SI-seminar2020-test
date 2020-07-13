@@ -60,5 +60,16 @@
         ],
         "author": "GroupB",
         "description": "typeがMovieのデータは削除してください．"
+    },
+    {
+        "condition": [
+            "((?! public).*):"
+        ],
+        "consequent": [
+            "$1;"
+        ],
+        "regex": true,
+        "author": "GroupC",
+        "description": "Test．"
     }
 ]
