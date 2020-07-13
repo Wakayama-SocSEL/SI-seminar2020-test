@@ -1,4 +1,4 @@
-public class GroupA_Kadai{
+public class GroupA_Kadai{ 
     public static void main(String[] args){
     String num1 = "500";
     char num2 = "21,690";
