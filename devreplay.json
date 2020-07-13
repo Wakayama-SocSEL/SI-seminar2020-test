@@ -60,5 +60,15 @@
         ],
         "author": "GroupB",
         "description": "typeがMovieのデータは削除してください．"
+    },
+    {
+        "condition": [
+            "(.+):"
+        ],
+        "consequent": [
+            "$1;"
+        ],
+        "author": "GroupC",
+        "description": ";で閉じてください．"
     }
 ]
