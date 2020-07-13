@@ -60,5 +60,45 @@
         ],
         "author": "GroupB",
         "description": "typeがMovieのデータは削除してください．"
+    },
+    {
+        "condition": [
+            "(.+):"
+        ],
+        "consequent": [
+            "$1;"
+        ],
+        "author": "GroupC",
+        "description": ";で閉じてください．"
+    },
+    {
+        "condition": [
+            "(^\\s{4}\\D+\\s)\"(.+)\"((:|;))"
+        ],
+        "consequent": [
+            "$1$2$3"
+        ],
+        "author": "GroupC",
+        "description": "正しい戻り値が返るようにしてください．"
+    },
+    {
+        "condition": [
+            "(^\\s{4}\\D+)_(\\D+)_(\\D+)((.+)(:|;))"
+        ],
+        "consequent": [
+            "$1.$2.$3$4"
+        ],
+        "author": "GroupC",
+        "description": "System.out.printlnで実行してください．"
+    },
+    {
+        "condition": [
+            "(^\\s{4}.+[^{]$)"
+        ],
+        "consequent": [
+            "\t$1"
+        ],
+        "author": "GroupC",
+        "description": "タブを追加してください"
     }
 ]
