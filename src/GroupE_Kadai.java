@@ -33,7 +33,7 @@ public class Main {
         }
         
         number_sort(numberList);
-        for ( int i  =  0 ; i  <  numberList.length ; i ++ ) {
+        for ( int i  =  0; i  <  numberList.length ; i ++ ) {
             System.out.println(numberList[i]) ;
         }
     }
