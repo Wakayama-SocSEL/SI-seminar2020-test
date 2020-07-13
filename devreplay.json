@@ -61,4 +61,54 @@
         "author": "GroupB",
         "description": "typeがMovieのデータは削除してください．"
     }
+    {
+        "condition": [
+            "(public.*\\)):"
+        ],
+        "consequent": [
+            "$1 {"
+        ],
+        "author": "GroupC",
+        "description": "関数宣言の最後は{で始めてください．"
+    },
+    {
+        "condition": [
+            "((?! public).*):"
+        ],
+        "consequent": [
+            "$1;"
+        ],
+        "author": "GroupC",
+        "description": ";で閉じてください．"
+    },
+    {
+        "condition": [
+            "(return) \"(\\D+)\""
+        ],
+        "consequent": [
+            "$1 $2"
+        ],
+        "author": "GroupC",
+        "description": "正しい戻り値が返るようにしてください．"
+    },
+    {
+        "condition": [
+            "(System)_(out)_(println)"
+        ],
+        "consequent": [
+            "$1.$2.$3"
+        ],
+        "author": "GroupC",
+        "description": "System.out.printlnで実行してください．"
+    },
+    {
+        "condition": [
+            "^((?!.*public).*;)$"
+        ],
+        "consequent": [
+            "\t$1"
+        ],
+        "author": "GroupC",
+        "description": "タブを追加してください"
+    }
 ]
