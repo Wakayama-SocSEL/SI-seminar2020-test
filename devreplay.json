@@ -22,16 +22,6 @@
     },
     {
         "condition": [
-            "([^\\s]+)[A-Z a-z]*(\\s.*)\"(\\d*),*(\\d*)\""
-        ],
-        "consequent": [
-            "int$2$3$4"
-        ],
-        "regex": true,
-        "author": "GroupA"
-    },
-    {
-        "condition": [
             "return \"(.*)\""
         ],
         "consequent": [
