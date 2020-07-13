@@ -1,7 +1,8 @@
 public class GroupA_Kadai{
     public static void main(String[] args){
     String num1 = "500";
-    char num2 = "21,690";
+    int num2 = 21
+        690;
     double num3 = "1,308";
     long num4 = "113,452";
     byte num5 = "67";
