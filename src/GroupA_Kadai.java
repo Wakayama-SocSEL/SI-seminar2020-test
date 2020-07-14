@@ -1,8 +1,9 @@
 public class GroupA_Kadai{
+    
     public static void main(String[] args){
-    String num1 = "500";
-    char num2 = "21,690";
-    double num3 = "1,308";
+        String num1 = "500";
+        char num2 = "21,690";
+    double num3 = 1308;
     long num4 = "113,452";
     byte num5 = "67";
     int num6 = "1";
@@ -20,20 +21,20 @@ public class GroupA_Kadai{
     int sum;
 
     sum = num1 + num2;
-    return "sum";
+    return sum;
     }
 
     public static int Sub(int num1, int num2){
     int sub;
 
     sub = num2 - num1;
-    return "sub";
+    return sub;
     }
 
     public static int Multi(int num1, int num2){
     int multi;
 
     multi = num1 * num2;
-    return "multi";
+    return multi;
     }
 }
