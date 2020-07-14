@@ -6,7 +6,7 @@ public class GroupA_Kadai{
     long num4 = "113,452";
     byte num5 = "67";
     int num6 = "1";
-
+　
     int sum = SI.Sum(num1, num2);
     int sub = SI.Sub(num3, num4);
     int multi = SI.Multi(num5, num6);
