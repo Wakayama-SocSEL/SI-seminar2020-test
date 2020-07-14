@@ -42,5 +42,16 @@
         "description": "++,--のいずれかの後ろの空白が不正です",
         "auther": "GroupE",
         "regex": true
+    },
+    {
+        "condition": [
+            "\\)[\\n\\s]*\\{"
+        ],
+        "consequent": [
+            ")\\s{"
+        ],
+        "description": "if文などの）と｛の間の空白・改行が不正です",
+        "auther": "GroupE",
+        "regex": true
     }
 ]
