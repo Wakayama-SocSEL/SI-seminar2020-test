@@ -1,11 +1,11 @@
 public class GroupA_Kadai {
     public static void main(String[] args){
-        String num1 = "500";
-        char num2 = "21,690";
-        double num3 = "1,308";
-        long num4 = "113,452";
-        byte num5 = "67";
-        int num6 = "1";
+        int num1 = 500;
+        int num2 = 21690;
+        int num3 = 1308;
+        int num4 = 113452;
+        int num5 = 67;
+        int num6 = 1;
 
         int sum = SI.Sum(num1, num2);
         int sub = SI.Sub(num3, num4);
