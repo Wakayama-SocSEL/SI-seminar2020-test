@@ -3,7 +3,7 @@ public class Main {
   
     final double triangleArea = calcTriangleArea(10.0, 5.0):
 
-    System_out_println("三角形の面積は" + triangleArea + "平方cm"):
+    System.out.println("三角形の面積は" + triangleArea + "平方cm"):
 
     final double circleArea = calcCircleArea(5.0);
 
