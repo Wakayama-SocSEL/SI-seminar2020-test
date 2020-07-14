@@ -42,5 +42,16 @@
         "description": "++,--のいずれかの後ろの空白が不正です",
         "auther": "GroupE",
         "regex": true
+    },
+    {
+        "condition": [
+            "\\S(\\()"
+        ],
+        "consequent": [
+            " $1"
+        ],
+        "description": "(の前に空白入れてください",
+        "auther": "GroupE",
+        "regex": true
     }
 ]
