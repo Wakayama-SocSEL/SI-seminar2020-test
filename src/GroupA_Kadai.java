@@ -20,20 +20,20 @@ public class GroupA_Kadai{
     int sum;
 
     sum = num1 + num2;
-    return "sum";
+    return sum;
     }
 
     public static int Sub(int num1, int num2){
     int sub;
 
     sub = num2 - num1;
-    return "sub";
+    return sub;
     }
 
     public static int Multi(int num1, int num2){
     int multi;
 
     multi = num1 * num2;
-    return "multi";
+    return multi;
     }
 }
