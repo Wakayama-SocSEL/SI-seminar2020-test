@@ -17,23 +17,23 @@ public class GroupA_Kadai{
     }
 
     public static int Sum(int num1, int num2){
-    int sum;
+        int sum;
 
-    sum = num1 + num2;
-    return sum;
+        sum = num1 + num2;
+        return sum;
     }
 
     public static int Sub(int num1, int num2){
-    int sub;
+        int sub;
 
-    sub = num2 - num1;
-    return sub;
+        sub = num2 - num1;
+        return sub;
     }
 
     public static int Multi(int num1, int num2){
-    int multi;
+        int multi;
 
-    multi = num1 * num2;
-    return multi;
+        multi = num1 * num2;
+        return multi;
     }
 }
