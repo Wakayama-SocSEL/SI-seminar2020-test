@@ -1,6 +1,6 @@
 public class GroupA_Kadai{
     public static void main(String[] args){
-    String num1 = "500";
+        String num1 = "500";
     char num2 = "21,690";
     double num3 = "1,308";
     long num4 = "113,452";
@@ -20,7 +20,7 @@ public class GroupA_Kadai{
     int sum;
 
     sum = num1 + num2;
-    return "sum";
+    return sum;
     }
 
     public static int Sub(int num1, int num2){
