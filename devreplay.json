@@ -33,13 +33,13 @@
     },
     {
         "condition": [
-            "^(?!.*int)(\\s+)(\\w+)\\s\\w+\\s?=\\s?\"(\\d*),?(\\d+)\""
+            "\\w+\\s(\\w+)\\s?=\\s?\"(\\d*),?(\\d+)\""
         ],
         "consequent": [
-            "$1int $2 = $3$4"
+            "int $1 = $2$3"
         ],
         "regex": true,
         "author": "GroupA",
-        "description": "数値の型はint型であるべきです"
+        "description": "数値の型と値が不正です"
     }
 ]
