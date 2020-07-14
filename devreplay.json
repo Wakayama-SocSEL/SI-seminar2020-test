@@ -33,13 +33,13 @@
     },
     {
         "condition": [
-            "^(?!.*(String|char))(.+?)(\\w+)\\s(\\w+)\\s?=\\s?\"(.+)\""
+            "^(?!.*int)(\\s+)(\\w+)\\s\\w+\\s?=\\s?\"(\\d*),?(\\d+)\""
         ],
         "consequent": [
-            "$2$3 $4 = $5"
+            "$1int $2 = $3$4"
         ],
         "regex": true,
         "author": "GroupA",
-        "description": "Stringまたはchar型でない変数の値が文字列になっています"
+        "description": "数値の型はint型であるべきです"
     }
 ]
