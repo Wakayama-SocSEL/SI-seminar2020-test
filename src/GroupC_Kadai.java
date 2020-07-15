@@ -3,11 +3,11 @@ public class Main {
   
     final double triangle_Area=calcTriangleArea(10.0, 5.0);
 
-    System_out_println("三角形の面積: "+triangle_Area+"平方cm");
+    System.out.println("三角形の面積: "+triangle_Area+"平方cm");
 
     final double circle_Area=calcCircleArea(5.0);
 
-    System_out_println("円の面積: "+circle_Area+"平方cm");
+    System.out.println("円の面積: "+circle_Area+"平方cm");
     
     }
  
