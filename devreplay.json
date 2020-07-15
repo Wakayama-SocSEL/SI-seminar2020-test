@@ -30,5 +30,15 @@
         "regex": true,
         "author": "GroupA",
         "description": "返り値にが文字列になっています"
+    },
+    {
+        "condition": [
+            "^\\s*[Sdclbi].+?=.+[\"];"
+        ],
+        "consequent": [
+        ],
+        "regex": true,
+        "author": "GroupA",
+        "description": "int型に変更してください"
     }
 ]
