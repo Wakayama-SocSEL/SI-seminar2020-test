@@ -31,4 +31,15 @@
         "author": "GroupA",
         "description": "返り値にが文字列になっています"
     }
+    {
+        "condition": [
+            "(^\\s*)[Sdclbi].*? (.*=.*? )\"(.*)\";"
+        ],
+        "consequent": [
+            "return $1int $2$3;"
+        ],
+        "regex": true,
+        "author": "GroupA",
+        "description": "int型にString型が代入されています"
+    }
 ]
