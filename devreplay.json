@@ -44,4 +44,15 @@
         "author":"GroupD",
         "description":"曜日の表記を頭3文字に統一してください"
     }
+    {
+        "condition": [
+            "tokyo"
+        ],
+        "consequent": [
+            "Tokyo"
+        ],
+        "regex": true,
+        "author":"GroupD",
+        "description":"Tokyo表記に統一"
+    }
 ]
