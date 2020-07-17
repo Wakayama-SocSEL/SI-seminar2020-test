@@ -15,7 +15,7 @@ public class Main {
     
     private static int toOdd(int Value)
     {
-        int doubleValue =Value *2;
+        int doubleValue = Value *2;
         if (Value %2 ==0)
         {
             return Value;
