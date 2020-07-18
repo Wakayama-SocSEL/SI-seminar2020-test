@@ -17,7 +17,8 @@ public class Main {
         int doubleValue = Value * 2;
         if (Value % 2 == 0) {
             return Value;
-        } else {
+        }
+        else {
             return doubleValue;
         }
     }
