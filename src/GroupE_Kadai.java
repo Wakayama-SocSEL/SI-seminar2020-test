@@ -18,7 +18,7 @@ public class Main {
     private static int toOdd(int Value)
     {
         int doubleValue = Value * 2;
-        if (Value %2 == 0)
+        if (Value % 2 == 0)
         {
             return Value;
         }
@@ -31,7 +31,7 @@ public class Main {
         int[] numberList  =  {1, 2, 3, 4, 5, 6, 7, 8, 9, 10} ;
         
         for ( int i = 0; i < numberList.length ; i++) {
-            numberList[i]  =  toOdd(numberList[i]) ;
+            numberList[i] = toOdd(numberList[i]) ;
         }
         
         number_sort(numberList);
