@@ -32,7 +32,7 @@ index,anime_id,name,genre,type,episodes,rating,members
 30,11111,Another,Horror,Mystery,School,Supernatural,Thriller,TV,12,7.88,534657
 31,47,Akira,Action,Adventure,Horror,Military,Sci-Fi,Supernatural,Movie,1,8.15,215897
 32,11757,Sword Art Online,Action,Adventure,Fantasy,Game,Romance,TV,25,7.83,893100
-33,199,Sen to Chihiro no Kamikakushi,Adventure,Drama,Supernatural,Movie,1,8.93,466254
+33,199,Sen to Chihiro no Kamikakushi,Adventure,Drama,Supernatural,Movie,1,8.93,466254　
 34,23273,Shigatsu wa Kimi no Uso,Drama,Music,Romance,School,Shounen,TV,22,8.92,416397
 35,21,One Piece,Action,Adventure,Comedy,Drama,Fantasy,Shounen,Super Power,TV,Unknown,8.58,504862
 36,2001,Tengen Toppa Gurren Lagann,Action,Adventure,Comedy,Mecha,Sci-Fi,TV,27,8.78,562962
