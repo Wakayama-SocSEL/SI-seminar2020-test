@@ -64,5 +64,16 @@
         "description": "(,)のいずれかの前後の空白が不正です",
         "auther": "GroupE",
         "regex": true
+    },
+    {
+        "condition": [
+            "([^ \s])\s*([}])"
+        ],
+        "consequent": [
+            "$1$2"
+        ],
+        "description": "}の前の空白が不正です",
+        "auther": "GroupE",
+        "regex": true
     }
 ]
