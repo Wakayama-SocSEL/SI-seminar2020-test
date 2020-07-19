@@ -44,4 +44,17 @@
         "regex": true
     }
     
+    {
+        "condition": [
+            "([/]{2}.+?;)"
+        ],
+        "consequent": [
+            "$1"
+        ],
+        "description": "コメントアウトされたプログラムが残っています",
+        "auther": "GroupE",
+        "regex": true
+    }
+   
+    
 ]
