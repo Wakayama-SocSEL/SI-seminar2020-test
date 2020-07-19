@@ -89,10 +89,10 @@
     },
     {
         "condition": [
-            "(\\S)\\s+[}]"
+            "(\\S)\\s+([}])"
         ],
         "consequent": [
-            "$1}"
+            "$1$2"
         ],
         "description": "}の前の空白が不正です",
         "auther": "GroupE",
