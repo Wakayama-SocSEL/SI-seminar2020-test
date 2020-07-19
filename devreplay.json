@@ -44,4 +44,15 @@
         "author":"GroupD",
         "description":"曜日の表記を頭3文字に統一してください"
     }
+    {
+        "condition": [
+            "years_old"
+        ],
+        "consequent": [
+            ""
+        ],
+        "regex": true,
+        "author":"GroupD",
+        "description":"年齢の表記をageに統一してください"
+    }
 ]
