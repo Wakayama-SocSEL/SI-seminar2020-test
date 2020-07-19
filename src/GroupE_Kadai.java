@@ -13,18 +13,18 @@ public class Main {
         }
     }
     
-    private static int toOdd(int Value)
-    {
-        int doubleValue =Value *2;
-        if (Value %2 ==0)
-        {
-            return Value;
-        }
-        else
-        {
-            return doubleValue;
-        }
-    }
+//     private static int toOdd(int Value)
+//     {
+//         int doubleValue =Value *2;
+//         if (Value %2 ==0)
+//         {
+//             return Value;
+//         }
+//         else
+//         {
+//             return doubleValue;
+//         }
+//     }
     public static void main(String[] args) {
         int[] numberList  =  {1,2,3, 4,5 ,6 ,7, 8, 9 , 10 } ;
         
