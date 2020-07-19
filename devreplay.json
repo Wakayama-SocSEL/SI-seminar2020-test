@@ -42,5 +42,16 @@
         "description": "++,--のいずれかの後ろの空白が不正です",
         "auther": "GroupE",
         "regex": true
+    },
+    {
+        "condition": [
+            "(/{2}.+?;)"
+        ],
+        "consequent": [
+            ""
+        ],
+        "description": "コメントアウト",
+        "auther": "GroupE",
+        "regex": true
     }
 ]
