@@ -56,12 +56,23 @@
     },
     {
         "condition": [
-            "\\s*([(]|[)])\\s*"
+            "\\s+([(]|[)])"
         ],
         "consequent": [
             "$1"
         ],
-        "description": "(,)のいずれかの前後の空白が不正です",
+        "description": "(,)のいずれかの前の空白が不正です",
+        "auther": "GroupE",
+        "regex": true
+    },
+    {
+        "condition": [
+            "([(]|[)])\\s+"
+        ],
+        "consequent": [
+            "$1"
+        ],
+        "description": "(,)のいずれかの後ろの空白が不正です",
         "auther": "GroupE",
         "regex": true
     },
