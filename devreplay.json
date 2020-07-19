@@ -30,5 +30,49 @@
         "regex": true,
         "author": "GroupA",
         "description": "返り値にが文字列になっています"
+    },
+    {
+        "condition": [
+            "int .* \"(.*)\""
+        ],
+        "consequent": [
+            "int .*$1"
+        ],
+        "regex": true,
+        "author": "GroupA",
+        "description": "intの値が文字列になっています"
+    },
+    {
+        "condition": [
+            "long .* \"(.*)\""
+        ],
+        "consequent": [
+            "long .*$1"
+        ],
+        "regex": true,
+        "author": "GroupA",
+        "description": "longの値が文字列になっています"
+    },
+    {
+        "condition": [
+            "byte .* \"(.*)\""
+        ],
+        "consequent": [
+            "byte .*$1"
+        ],
+        "regex": true,
+        "author": "GroupA",
+        "description": "byteの値が文字列になっています"
+    },
+    {
+        "condition": [
+            "double .* \"(.*)\""
+        ],
+        "consequent": [
+            "double .*$1"
+        ],
+        "regex": true,
+        "author": "GroupA",
+        "description": "doubleの値が文字列になっています"
     }
 ]
