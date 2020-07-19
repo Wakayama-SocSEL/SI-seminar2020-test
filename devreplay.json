@@ -64,5 +64,16 @@
         "description": "(の後ろの空白が不正です",
         "auther": "GroupE",
         "regex": true
+    },
+    {
+        "condition": [
+            "(class.+)\\s*[{]"
+        ],
+        "consequent": [
+            "$1\n{"
+        ],
+        "description": "クラス宣言時の{の位置が不正です",
+        "auther": "GroupE",
+        "regex": true
     }
 ]
