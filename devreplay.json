@@ -53,5 +53,16 @@
         "description": "{の位置が不正です",
         "auther": "GroupE",
         "regex": true
+    },
+    {
+        "condition": [
+            "\\s*([(]|[)])\\s*"
+        ],
+        "consequent": [
+            "$1"
+        ],
+        "description": "(,)のいずれかの前後の空白が不正です",
+        "auther": "GroupE",
+        "regex": true
     }
 ]
