@@ -45,17 +45,6 @@
     },
     {
         "condition": [
-            "((\\s*).+)[)]\\s*[{]"
-        ],
-        "consequent": [
-            "$1)\\n$2{"
-        ],
-        "description": "{の位置が不正です",
-        "auther": "GroupE",
-        "regex": true
-    },
-    {
-        "condition": [
             "\\s+([(]|[)])"
         ],
         "consequent": [
@@ -73,17 +62,6 @@
             "$1"
         ],
         "description": "(の後ろの空白が不正です",
-        "auther": "GroupE",
-        "regex": true
-    },
-    {
-        "condition": [
-            "([^\\s])\\s+([}])"
-        ],
-        "consequent": [
-            "$1$2"
-        ],
-        "description": "}の前の空白が不正です",
         "auther": "GroupE",
         "regex": true
     }
