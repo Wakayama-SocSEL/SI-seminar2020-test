@@ -67,12 +67,12 @@
     },
     {
         "condition": [
-            "([(]|[)])\\s+"
+            "([(])\\s+"
         ],
         "consequent": [
             "$1"
         ],
-        "description": "(,)のいずれかの後ろの空白が不正です",
+        "description": "(の後ろの空白が不正です",
         "auther": "GroupE",
         "regex": true
     },
