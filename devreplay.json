@@ -67,7 +67,7 @@
     },
     {
         "condition": [
-            "(class.+)\\s*[{]"
+            "(class.+)[{]"
         ],
         "consequent": [
             "$1\n{"
