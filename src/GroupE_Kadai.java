@@ -1,6 +1,6 @@
 import java.util.*;
 public class Main {
-    public static void number_sort (int [] number_array) {
+    public static void number_sort (int[] number_array) {
         int temp;
         for (int i = 0; i < number_array.length; i++) {
             for (int j = 0; j < number_array.length - i - 1; j++) {
