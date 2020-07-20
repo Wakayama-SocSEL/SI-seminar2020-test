@@ -30,5 +30,27 @@
         "regex": true,
         "author": "GroupA",
         "description": "返り値にが文字列になっています"
+    },
+    {
+        "condition": [
+            "(int|long|byte|double)( .* )\"(.*)\""
+        ],
+        "consequent": [
+            "int$2$3"
+        ],
+        "regex": true,
+        "author": "GroupA",
+        "description": "型をintにして値を文字列にしてください"
+    },
+    {
+        "condition": [
+            "(long|byte|double)( .* )(d*)"
+        ],
+        "consequent": [
+            "int$1$2"
+        ],
+        "regex": true,
+        "author": "GroupA",
+        "description": "型をintにしてください"
     }
 ]
