@@ -1,6 +1,17 @@
 [
     {
         "condition": [
+            "(^\\s{4}public.+)?_(.+?)\W"
+        ],
+        "consequent": [
+            "$1\u$2"
+        ],
+        "regex": true,
+        "author": "GroupC",
+        "description": "命名規則を統一してください."
+    },
+    {
+        "condition": [
             "(^\\s{4}public.+)(:|;)$"
         ],
         "consequent": [
