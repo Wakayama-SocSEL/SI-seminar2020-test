@@ -42,5 +42,60 @@
         "description": "++,--のいずれかの後ろの空白が不正です",
         "auther": "GroupE",
         "regex": true
+    },
+    {
+        "condition": [
+            "\\s+([(]|[)])"
+        ],
+        "consequent": [
+            "$1"
+        ],
+        "description": "(,)のいずれかの前の空白が不正です",
+        "auther": "GroupE",
+        "regex": true
+    },
+    {
+        "condition": [
+            "([(])\\s+"
+        ],
+        "consequent": [
+            "$1"
+        ],
+        "description": "(の後ろの空白が不正です",
+        "auther": "GroupE",
+        "regex": true
+    },
+    {
+        "condition": [
+            "(class.+)[{]"
+        ],
+        "consequent": [
+            "$1\n{"
+        ],
+        "description": "クラス宣言時の{の位置が不正です",
+        "auther": "GroupE",
+        "regex": true
+    },
+    {
+        "condition": [
+            "([}])(\\n.+[(].*[)])"
+        ],
+        "consequent": [
+            "$1\\n$2"
+        ],
+        "description": "Method間の改行がありません",
+        "auther": "GroupE",
+        "regex": true
+    },
+    {
+        "condition": [
+            "((\\s*).+)[)].*[{]"
+        ],
+        "consequent": [
+            "$1)\\n$2{"
+        ],
+        "description": "{の位置が不正です",
+        "auther": "GroupE",
+        "regex": true
     }
 ]
