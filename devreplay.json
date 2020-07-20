@@ -34,7 +34,7 @@
     },
     {
         "condition": [
-            "(char|String|int|long|byte|double)(\t)\"(.*)\""
+            "(char|String|int|long|byte|double)(\)\"(.*)\""
         ],
         "consequent": [
             "int$2$3"
