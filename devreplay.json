@@ -34,13 +34,13 @@
     },
     {
         "condition": [
-            "(char|String|int|long|byte|double)(\s)\"(.*)\""
+            "(char|String|int|long|byte|double)(.*)\"(.*)\""
         ],
         "consequent": [
             "int$2$3"
         ],　
         "regex": true,
         "author": "GroupA",
-        "description": "int型として不正な値となっています。"
+        "description": "int型になっていないもしくわint型として不正な値が代入されています。"
     } 
 ]
