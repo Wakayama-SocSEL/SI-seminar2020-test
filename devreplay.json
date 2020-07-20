@@ -9,7 +9,8 @@
         "regex": true,
         "author": "GroupA",
         "description": "インデントを付けてください"
-    },{
+    },
+    {
         "condition": [
             "^    ([^  ].*;)"
         ],
@@ -30,5 +31,16 @@
         "regex": true,
         "author": "GroupA",
         "description": "返り値にが文字列になっています"
-    }
+    },
+    {
+        "condition": [
+            "(char|String|int|long|byte|double)(\t)\"(.*)\""
+        ],
+        "consequent": [
+            "int$2$3"
+        ],
+        "regex": true,
+        "author": "GroupA",
+        "description": "int型として不正な値となっています。"
+    } 
 ]
