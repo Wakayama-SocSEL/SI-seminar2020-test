@@ -78,6 +78,17 @@
     },
     {
         "condition": [
+            "([}])(\\n.+[(].*[)])"
+        ],
+        "consequent": [
+            "$1\\n$2"
+        ],
+        "description": "Method間の改行がありません",
+        "auther": "GroupE",
+        "regex": true
+    },
+    {
+        "condition": [
             "((\\s*).+)[)].*[{]"
         ],
         "consequent": [
