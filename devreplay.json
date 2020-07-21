@@ -45,7 +45,29 @@
     },
     {
         "condition": [
-            "((\//)|(\/\*)|(\*\/))"
+            "(\//)"
+        ],
+        "consequent": [
+            "$1"
+        ],
+        "description": "コメントが残っています",
+        "auther": "GroupE",
+        "regex": true
+    },
+    {
+        "condition": [
+            "(\/\*)"
+        ],
+        "consequent": [
+            "$1"
+        ],
+        "description": "コメントが残っています",
+        "auther": "GroupE",
+        "regex": true
+    },
+    {
+        "condition": [
+            "(\*\/)"
         ],
         "consequent": [
             "$1"
