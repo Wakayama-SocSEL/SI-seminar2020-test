@@ -45,6 +45,17 @@
     },
     {
         "condition": [
+            "(\))(\{)"
+        ],
+        "consequent": [
+            "$1 $2"
+        ],
+        "description": ")の後ろの空白が不正です",
+        "auther": "GroupE",
+        "regex": true
+    },
+    {
+        "condition": [
             "\n\\s+(\\{)"
         ],
         "consequent": [
