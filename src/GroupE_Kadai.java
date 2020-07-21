@@ -13,7 +13,6 @@ public class Main {
         }
     }
     
-    // コメント
     private static int toOdd(int Value) {
         int doubleValue = Value * 2;
         if (Value % 2 == 0) {
@@ -35,4 +34,16 @@ public class Main {
             System.out.println(numberList[i]);
         }
     }
+    
+    /*
+        private static int toOdd(int Value) {
+            int doubleValue = Value * 2;
+            if (Value % 2 == 0) {
+                return Value;
+            }
+            else {
+                return doubleValue;
+            }
+        }
+    */
 }
