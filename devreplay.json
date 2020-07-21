@@ -56,6 +56,17 @@
     },
     {
         "condition": [
+            "(\})(\n)(\s+[p])"
+        ],
+        "consequent": [
+            "$1$2$2$3"
+        ],
+        "description": "メソッドの前に空行を入れてください",
+        "auther": "GroupE",
+        "regex": true
+    },
+    {
+        "condition": [
             "\/{2}.+"
         ],
         "consequent": [
