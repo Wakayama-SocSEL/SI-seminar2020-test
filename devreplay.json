@@ -42,5 +42,49 @@
         "description": "++,--のいずれかの後ろの空白が不正です",
         "auther": "GroupE",
         "regex": true
+    },
+    {
+        "condition": [
+            "(\\))(\\{)"
+        ],
+        "consequent": [
+            "$1 $2"
+        ],
+        "description": ")の後ろの空白が不正です",
+        "auther": "GroupE",
+        "regex": true
+    },
+    {
+        "condition": [
+            "\n\\s+(\\{)"
+        ],
+        "consequent": [
+            " $1"
+        ],
+        "description": "{の位置が不正です",
+        "auther": "GroupE",
+        "regex": true
+    },
+    {
+        "condition": [
+            "(\\})(\n)(\\s+[p])"
+        ],
+        "consequent": [
+            "$1$2$2$3"
+        ],
+        "description": "メソッドの前に空行を入れてください",
+        "auther": "GroupE",
+        "regex": true
+    },
+    {
+        "condition": [
+            "\/{2}.+"
+        ],
+        "consequent": [
+            ""
+        ],
+        "description": "コメントが残っています",
+        "auther": "GroupE",
+        "regex": true
     }
 ]

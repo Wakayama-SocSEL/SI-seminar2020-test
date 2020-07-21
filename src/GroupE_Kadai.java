@@ -13,6 +13,7 @@ public class Main {
         }
     }
     
+    // コメント
     private static int toOdd(int Value)
     {
         int doubleValue =Value *2;
