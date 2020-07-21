@@ -50,7 +50,7 @@
         "consequent": [
             "$1"
         ],
-        "description": "++,--のいずれかの後ろの空白が不正です",
+        "description": "コメントが残っています",
         "auther": "GroupE",
         "regex": true
     }
